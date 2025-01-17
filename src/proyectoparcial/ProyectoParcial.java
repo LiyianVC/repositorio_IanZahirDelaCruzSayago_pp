@@ -16,12 +16,10 @@ public class ProyectoParcial {
         System.out.println("Ingrese la tarifa por hora: ");
         double tarifaPorHora = scanner.nextDouble();
 
-        // Cálculos
         double sueldoBruto = horasTrabajadas * tarifaPorHora;
         double descuento = sueldoBruto * 0.13;
         double sueldoNeto = sueldoBruto - descuento;
 
-        // Resultados
         System.out.println("\nResultados:");
         System.out.println("Empleado: " + nombre);
         System.out.println("Sueldo Bruto: " + sueldoBruto);
