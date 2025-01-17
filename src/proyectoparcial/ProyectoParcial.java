@@ -28,7 +28,6 @@ public class ProyectoParcial {
         System.out.println("Descuento (ONP): " + descuento);
         System.out.println("Sueldo Neto: " + sueldoNeto);
         
-
         scanner.close();
     }
 }
